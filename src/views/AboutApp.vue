@@ -48,23 +48,7 @@ g6uqKI2xXr2"
  
 
 </v-card>
-<v-card class="vcard"  color="rgba(232, 224, 224, 0.8)">
- 
- <v-card-title class="title"><h1> Calculator</h1></v-card-title>
- <div class="sub">
 
-    <p>
-      This application is a simple calculator application, this is use to add, subtract, multiply and
-      divide the number that you inputted.
-      <img alt="Profile"  src="../assets/cacl.jpg" width="100%" height="50%" class="img"/>
-   </p>
- 
-
-</div>
-
- 
-
-</v-card>
 <v-card class="vcard"  color="rgba(232, 224, 224, 0.8)">
  
  <v-card-title class="title"><h1> String Manipulation</h1></v-card-title>
