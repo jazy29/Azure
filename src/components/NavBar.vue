@@ -42,7 +42,9 @@
            { title: 'About Me', icon: 'mdi-account', path: '/' },
            { title: 'Math', icon: 'mdi-alarm-panel-outline', path: '/basicMath' },
            { title: 'String App', icon: 'mdi-alphabetical-variant', path: '/stringApp'},
-           { title: 'Quiz App', icon: 'mdi-alphabetical-variant', path: '/quiz'},
+           { title: 'Quiz App', icon: 'mdi-omega', path: '/quiz'},
+           { title: 'About Vuetify', icon: 'mdi-vuetify', path: '/vuetify'},
+           { title: 'About App', icon: 'mdi-android', path: '/aboutapp'},
         ])
 
  function toggleDrawer(){

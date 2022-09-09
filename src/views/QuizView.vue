@@ -3,10 +3,13 @@
 
 
   <div id="quiz-container">
-    <v-card class="vcard"  color="">
+    <v-card class="vcard">
+
+      <v-card-title class="vtitle"><h3>Greek Mythology Application</h3></v-card-title>   
      <h5>Score: {{score}}/{{questions.length}}</h5>
 
      <hr class="divider" />
+
      <h3>Question: {{currentnumberQuestion}} / {{questions.length}}</h3>
      <div>
        <h1 v-html="loading ? 'Loading...' : currentQuestion.question"></h1>
@@ -263,11 +266,18 @@
   position: relative;
   top: 2em;
   padding-top: 20px;
+  color:rgb(225, 225, 225);
   text-align: center;
-  background-image: url("../assets/bgf.jpg");
+  background-image: url("../assets/bg.jpg");
   border-radius: 20px;
   padding-bottom: 3%;
   width: 80%
   
+}
+.vtitle{
+  color:rgb(235, 235, 235);
+  background-color:#f6d654a0;
+  font-family: 'Times New Roman', Times, serif;
+  margin-bottom: 3%;
 }
  </style>

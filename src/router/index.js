@@ -6,6 +6,8 @@ import QuizView from '../views/QuizView.vue'
 
 
 
+
+
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
@@ -29,6 +31,16 @@ const router = createRouter({
       path: '/quiz',
       name: 'quizapp',
       component: QuizView
+    },
+    {
+      path: '/vuetify',
+      name: 'Programming Skills',
+      component: () => import('../views/AboutVuetify.vue')
+    },
+    {
+      path: '/aboutapp',
+      name: 'Programming Skills',
+      component: () => import('../views/AboutApp.vue')
     },
 
   ]
