@@ -4,8 +4,8 @@
       <v-toolbar class="nav" app>
        <v-app-bar-nav-icon @click='toggleDrawer'></v-app-bar-nav-icon>
       <v-toolbar-title >
-        <span class="font-weight-light">Prelim  </span>
-        <span>Laboratory 5</span>
+        <span class="font-weight-light">Midterm  </span>
+        <span>Project</span>
       </v-toolbar-title>
       <v-spacer></v-spacer>
 
