@@ -27,14 +27,9 @@ g6uqKI2xXr2"
        <p>
         The firs page is about myself this is just an web page that shows who I am, this explores
         how V card and Vtitle is used.
-
+        <img alt="Profile"  src="../assets/abmyself.jpg" width="100%" height="50%" class="img"/>
       </p>
-    
-
   </div>
-  <img alt="Profile"  src="../assets/abmyself.jpg" width="100%" height="50%" class="img"/>
-    
-   
   </v-card>
   <v-card class="vcard"  color="rgba(232, 224, 224, 0.8)">
  
@@ -44,12 +39,12 @@ g6uqKI2xXr2"
     <p>
       This application is a simple calculator application, this is use to add, subtract, multiply and
       divide the number that you inputted.
-
+      <img alt="Profile"  src="../assets/cacl.jpg" width="100%" height="50%" class="img"/>
    </p>
  
 
 </div>
-<img alt="Profile"  src="../assets/cacl.jpg" width="100%" height="50%" class="img"/>
+
  
 
 </v-card>
@@ -61,12 +56,12 @@ g6uqKI2xXr2"
     <p>
       This application is a simple calculator application, this is use to add, subtract, multiply and
       divide the number that you inputted.
-
+      <img alt="Profile"  src="../assets/cacl.jpg" width="100%" height="50%" class="img"/>
    </p>
  
 
 </div>
-<img alt="Profile"  src="../assets/cacl.jpg" width="100%" height="50%" class="img"/>
+
  
 
 </v-card>
@@ -79,12 +74,12 @@ g6uqKI2xXr2"
       This application is a string manipulator applicaiton, by clicking the count button 
       the string that you have inputted will be inspect and the program will count the number of
       vowels, consonant, numbers and then it will convert the vowels into asteries '*'.
-
+      <img alt="Profile"  src="../assets/sm.jpg" width="100%" height="50%" class="img"/>
    </p>
  
 
 </div>
-<img alt="Profile"  src="../assets/sm.jpg" width="100%" height="50%" class="img"/>
+
  
 
 </v-card>
@@ -96,12 +91,12 @@ g6uqKI2xXr2"
     <p>
       This application is a quiz app that uses axios api to input the question and the right answer.
       The question that I have use is about the Greek Mythology.
-
+      <img alt="Profile"  src="../assets/quiz.jpg" width="100%" height="50%" class="img"/>
    </p>
  
 
 </div>
-<img alt="Profile"  src="../assets/quiz.jpg" width="100%" height="50%" class="img"/>
+
  
 
 </v-card>
@@ -191,6 +186,21 @@ body {
   width: 75%;
   height: 40%;
   margin-bottom: 2%;
+}
+.vcard p {
+    position: relative;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin-top: 2%;
+    margin-left: 5.5%;
+    text-align: justify;
+    background: rgba(232, 224, 224, 0.8);
+    border-radius: 20px;
+    width: 90%;
+    height: 40%;
+
 }
 
 </style>

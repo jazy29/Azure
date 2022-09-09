@@ -34,12 +34,12 @@ const router = createRouter({
     },
     {
       path: '/vuetify',
-      name: 'Programming Skills',
+      name: 'Vuetify',
       component: () => import('../views/AboutVuetify.vue')
     },
     {
       path: '/aboutapp',
-      name: 'Programming Skills',
+      name: 'About App',
       component: () => import('../views/AboutApp.vue')
     },
 

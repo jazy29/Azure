@@ -124,17 +124,19 @@
       height: 40%;
     }
     .vcard p {
-  padding: 10px 10px 10px 10px;
-  color: #140836;
-  text-align: left;
-  font-size: 1.3rem;
-  line-height: 1.5;
-  margin-left: 10px;
-  margin-right: 30px;
-  margin-bottom: 10px;
-  margin-top: 20px;
-  width:98%;
-  position:relative;
+    position: relative;
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    margin-top: 2%;
+    margin-left: 5.5%;
+    text-align: justify;
+    background: rgba(232, 224, 224, 0.8);
+    border-radius: 20px;
+    width: 90%;
+    height: 40%;
+
 }
 
     </style>
