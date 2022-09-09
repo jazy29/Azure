@@ -68,6 +68,9 @@ table {
 body {
   background-color: rgb(20, 21, 21);
   padding: 3% 5% 19% 5%;
+  background-image: url(../assets/bgbod.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .bg {
   border: 5px solid #0f0f0f;

@@ -21,20 +21,19 @@ g6uqKI2xXr2"
 
   <v-card class="vcard"  color="rgba(232, 224, 224, 0.8)">
  
-    <v-card-title class="title"><h1> About Myself</h1></v-card-title>
+    <v-card-title class="title"><h1> About The Developer</h1></v-card-title>
     <div class="sub">
   
        <p>
         
-        I am Jonathan Bucat an IT student, I am 20 years and I live at Pasig 
-        City. My hobby is to play video games, listen to music, cook and draw. I
-        am good at designing, programming and drawing. I have 4 siblings and my
-        favorite food is lasagna. I have dream that I will be a succesful IT
-        profesional that will solve poverty by an applicaiton.
+        The owner of this website is Jonathan Bucat an IT student, I am 20 years 
+        and He lives at Pasig  City. He aims to be good  web designer and game devloper.
+        The program that he partake in Technological Institute of the Philippines is BSIT.
+        
       </p>
-  
 
   </div>
+  <br>
       <img alt="Profile"  src="../assets/jonathan.png" width="200" height="200" class="img"/>
     
    
@@ -50,6 +49,9 @@ g6uqKI2xXr2"
 body {
   background-color: rgb(20, 21, 21);
   padding: 3% 5% 19% 5%;
+  background-image: url(../assets/bgbod.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 .img{
   border-radius:200px;
@@ -98,6 +100,7 @@ body {
   color:#061837;
   text-align: center;
   font-size: 170%;
+  font-family:Georgia, 'Times New Roman', Times, serif
 }
 
 
@@ -111,6 +114,7 @@ body {
   line-height: 1.5;
   margin-left: 50px;
   margin-right: 50px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
 }
 
 .vcard {

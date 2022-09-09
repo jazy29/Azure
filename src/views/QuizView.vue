@@ -5,12 +5,12 @@
   <div id="quiz-container">
     <v-card class="vcard">
 
-      <v-card-title class="vtitle"><h3>Greek Mythology Application</h3></v-card-title>   
-     <h5>Score: {{score}}/{{questions.length}}</h5>
+      <v-card-title class="vtitle"><h4>Greek Mythology Application</h4></v-card-title>   
+     
 
      <hr class="divider" />
 
-     <h3>Question: {{currentnumberQuestion}} / {{questions.length}}</h3>
+     <h4>Question: {{currentnumberQuestion}} / {{questions.length}}</h4>
      <div>
        <h1 v-html="loading ? 'Loading...' : currentQuestion.question"></h1>
        <form v-if="currentQuestion">
@@ -23,9 +23,11 @@
          ></button>
        </form>
        <hr class="divider" />
+       <h3>Score: {{score}}/{{questions.length}}</h3>
      </div>
     </v-card>
    </div>
+   <br>
   </bodY>
  </template>
    
@@ -147,9 +149,12 @@
  </script>
    
    <style scoped>
-    body {
+body {
   background-color: rgb(20, 21, 21);
   padding: 3% 5% 19% 5%;
+  background-image: url(../assets/bgbod.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
  #quiz-container {
    margin: 1rem auto;
@@ -270,14 +275,21 @@
   text-align: center;
   background-image: url("../assets/bg.jpg");
   border-radius: 20px;
-  padding-bottom: 3%;
+  padding-bottom: 5%;
   width: 80%
   
+}
+.vcard h3{
+  margin-top:5%;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/bgnav.jpg);
+  padding-top:6%;
+  padding-bottom: 6%;
 }
 .vtitle{
   color:rgb(235, 235, 235);
   background-color:#f6d654a0;
   font-family: 'Times New Roman', Times, serif;
   margin-bottom: 3%;
+  font-size: 140%;
 }
  </style>

@@ -12,10 +12,10 @@
 
       </v-toolbar>
 
-    
-     <v-navigation-drawer app v-model="drawer" 
-      color="#152b56"
-  >
+      
+     <v-navigation-drawer app v-model="drawer" color="#19191A" >
+
+   
        <v-list-item color="white"
           v-for="item in items"
           :key="item.title"
@@ -24,8 +24,10 @@
           <v-list-item-title>{{ item.title }}</v-list-item-title>
           
         </v-list-item>
-      
+
      </v-navigation-drawer>
+ 
+
   </nav>
 
 
@@ -57,8 +59,11 @@
 
 .nav {
     background-color: rgb(34, 34, 38);
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/bgnav.jpg);
     color:aliceblue;
 }
-
+.drawer{
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../assets/bgdraw.jpg);
+}
 
 </style>
