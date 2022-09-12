@@ -5,7 +5,7 @@
   <div id="quiz-container">
     <v-card class="vcard">
 
-      <v-card-title class="vtitle"><h4>Greek Mythology Application</h4></v-card-title>   
+      <v-card-title class="vtitle"><h4>Quiz Application - Greek Mythology</h4></v-card-title>   
      
 
      <hr class="divider" />
